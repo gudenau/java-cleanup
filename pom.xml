@@ -6,12 +6,17 @@
 
     <groupId>net.gudenau.lib.cleanup</groupId>
     <artifactId>Cleanup</artifactId>
-    <version>1.0.0.0</version>
+    <version>1.0.0.0-SNAPSHOT</version>
+
+    <modules>
+        <module>../Annotations</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>net.gudenau.lib.annotation</groupId>
             <artifactId>Annotations</artifactId>
-            <version>1.0.0.0</version>
+            <version>1.0.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
